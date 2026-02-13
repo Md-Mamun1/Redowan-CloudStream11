@@ -11,15 +11,6 @@ on:
       - master
   workflow_dispatch:
 
-on:
-  push:
-    branches:
-      # choose your default branch
-      - master
-      - main
-    paths-ignore:
-      - '*.md'
-
 jobs:
   build:
     runs-on: ubuntu-latest
