@@ -8,6 +8,11 @@ concurrency:
 on:
   push:
     branches:
+      - master
+  workflow_dispatch:
+on:
+  push:
+    branches:
       # choose your default branch
       - master
       - main
